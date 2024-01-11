@@ -27,6 +27,5 @@ export default [{
   img:"https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/burger-react.jpeg",
   name:"burger",
   cal:295,
-},
-
+}
 ]

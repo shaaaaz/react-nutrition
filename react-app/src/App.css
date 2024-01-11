@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +43,60 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+.box{
+  background-color: rgb(122, 122, 122);
+  width: 60vw;
+  margin-bottom: 100px;
+  border: 5px solid rgb(235, 235, 235);
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.search{
+  width: 50vw;
+  height: 50px;
+  background-color: white;
+  color: black;
+  font-size: 160%;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.media{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+strong{
+  font-size: 300%;
+}
+
+small{
+  font-size: 140%;
+}
+
+.num{
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.button{
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+.control{
+  font-size: 20px;
 }
